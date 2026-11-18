@@ -10,7 +10,7 @@
 
 ```powershell
 New-Item -ItemType Directory -Force "$HOME\.agents\skills" | Out-Null
-git clone <本仓库地址> "$HOME\.agents\skills\project-context-manager"
+git clone https://github.com/Haswikr/project-context-manager.git "$HOME\.agents\skills\project-context-manager"
 ```
 
 若你的 Codex 使用 `$CODEX_HOME/skills`，则克隆到该目录。重启或刷新技能列表后，在项目对话中输入 `初始化项目`，或显式选择 `$project-context-manager`。新电脑登录相同 GitHub 账号后重复克隆即可。升级时在技能目录执行 `git pull --ff-only`；先保留自己的本地改动。
