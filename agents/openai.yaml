@@ -1,0 +1,5 @@
+interface:
+  display_name: 项目上下文管理
+  short_description: 初始化、对齐、快照和交接项目资料
+  default_prompt: 初始化项目
+
